@@ -28,8 +28,20 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'QBase/Classes/**/*'
-  
+#s.source_files = 'QBase/Classes/**/*'
+s.subspec 'Base' do |b|
+    b.source_files = 'TZSoundBase/Classes/Base/**/*'
+end
+
+s.subspec 'Category' do |c|
+    c.source_files = 'TZSoundBase/Classes/Category/**/*'
+end
+
+#s.subspec 'Network' do |n|
+#   n.source_files = 'TZSoundBase/Classes/Network/**/*'
+#   n.dependency 'AFNetworking'
+#end
+
   # s.resource_bundles = {
   #   'QBase' => ['QBase/Assets/*.png']
   # }
