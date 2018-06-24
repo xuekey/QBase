@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QBase_Example' do
+  pod 'QBase', :path => '../'
+
+  target 'QBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
