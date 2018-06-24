@@ -1,8 +1,8 @@
 {
   "name": "QBase",
-  "version": "1.0.0",
-  "summary": "A short description of QBase.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.1",
+  "summary": "QBase.",
+  "description": "A short description of QBase",
   "homepage": "https://github.com/xuekey/QBase",
   "license": {
     "type": "MIT",
@@ -13,10 +13,24 @@
   },
   "source": {
     "git": "https://github.com/xuekey/QBase.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "QBase/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "QBase/Classes/Base/**/*"
+    },
+    {
+      "name": "Category",
+      "source_files": "QBase/Classes/Category/**/*",
+      "dependencies": {
+        "SDWebImage": [
+
+        ]
+      }
+    }
+  ]
 }

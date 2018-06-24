@@ -13,6 +13,10 @@
 #import "Base.h"
 #import "QConst.h"
 #import "Sington.h"
+#import "CALayer+PauseAimate.h"
+#import "UIImage+QImage.h"
+#import "UIImageView+XMGExtension.h"
+#import "UIView+QLayout.h"
 
 FOUNDATION_EXPORT double QBaseVersionNumber;
 FOUNDATION_EXPORT const unsigned char QBaseVersionString[];
