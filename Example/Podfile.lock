@@ -1,0 +1,16 @@
+PODS:
+  - QBase (1.0.0)
+
+DEPENDENCIES:
+  - QBase (from `../`)
+
+EXTERNAL SOURCES:
+  QBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QBase: fec3e601df37947cb61c121080030f9ea29a5157
+
+PODFILE CHECKSUM: 65ce1b53976950e0d7a0461c028a81d3a0e36c36
+
+COCOAPODS: 1.5.2
