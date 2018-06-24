@@ -1,15 +1,15 @@
 //
-//  UIImageView+QExtension.h
+//  UIImageView+XMGExtension.h
 //  百思不得姐
 //
-//  Created by  on 16/6/16.
-//  Copyright © 2016年 哥. All rights reserved.
+//  Created by 王顺子 on 16/6/16.
+//  Copyright © 2016年 小码哥. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "UIImage+XMGImage.h"
 
-
-@interface UIImageView (QExtension)
+@interface UIImageView (XMGExtension)
 
 - (void)setURLImageWithURL: (NSURL *)url progress:(void(^)(CGFloat progress))progress complete: (void(^)())complete;
 
