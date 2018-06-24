@@ -35,6 +35,7 @@ end
 
 s.subspec 'Category' do |c|
     c.source_files = 'QBase/Classes/Category/**/*'
+    c.dependency 'SDWebImage'
 end
 
 #s.subspec 'Network' do |n|
