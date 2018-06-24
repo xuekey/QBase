@@ -30,11 +30,11 @@ Pod::Spec.new do |s|
 
 #s.source_files = 'QBase/Classes/**/*'
 s.subspec 'Base' do |b|
-    b.source_files = 'TZSoundBase/Classes/Base/**/*'
+    b.source_files = 'QBase/Classes/Base/**/*'
 end
 
 s.subspec 'Category' do |c|
-    c.source_files = 'TZSoundBase/Classes/Category/**/*'
+    c.source_files = 'QBase/Classes/Category/**/*'
 end
 
 #s.subspec 'Network' do |n|
